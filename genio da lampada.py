@@ -3,9 +3,6 @@ from xml.dom.xmlbuilder import DocumentLS
 import wikipedia
 import re
 
-
-
-name = input("Digite o seu nome: ")
 wikipedia.set_lang("pt")
 title = input("Sobre o que voce quer pesquisar? \n")
 while True:
