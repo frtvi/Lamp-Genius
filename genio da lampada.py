@@ -10,8 +10,8 @@ while True:
         wiki = wikipedia.page(title)
         break
     except:
-        print("Nome do projeto invalido")
-        title = input("Digite outro nome de projeto \n")
+        print("Pesquisa invalida")
+        title = input("Digite outra pesquisa \n")
 
 text = wiki.content
 text = re.sub(r'==','', text)
