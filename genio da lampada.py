@@ -11,7 +11,7 @@ while True:
         break
     except:
         print("Algo deu errado :(")
-        title = input("Digite outra pesquisa ou tente \n novamente com outros termos\n")
+        title = input("Digite outra pesquisa ou tente novamente com outros termos\n")
 
 text = wiki.content
 text = re.sub(r'==','', text)
